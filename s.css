@@ -1,0 +1,203 @@
+nav{
+    background-color: rgb(61, 6, 18);
+    width: 100%;
+    height: 50PX;
+    padding-left: 40px ;
+    padding-bottom: 15px;
+}
+
+nav img{
+    width: 55PX;
+    height: 55PX;
+    /* padding: 10px; */
+    margin:  4px;
+}
+input[type=button]{
+    background-color: rgb(34, 5, 11);
+    margin:10PX  10PX;
+    color: aliceblue;
+    /* padding-top: 10PX; */
+    float: right;
+    width: auto;
+    /* margin-right: 100px; */
+}
+ nav .button{
+    margin-right: 1000px;
+    margin-top: -50px;
+}
+ nav .clear{
+    clear: right;
+}
+section .welcom{
+    width: 100%;
+    background-image: url(background.png);
+    text-align: center;
+    color: aliceblue;
+    height: 500px;
+    padding: 50px 20px;
+    background-size:contain;   
+}
+section .welcom p{
+    margin: auto;
+    font-size: 60px;
+    margin: 100px 0;
+}
+section .welcom input[type=submit]
+{
+    width: 110px;
+    height: 40px;
+    margin: 0 10px;
+    background-color:rgb(61, 6, 18);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 14px;
+}
+section .course{
+    text-align: center;
+}
+table{
+    width: 75%;
+    margin: 0 13%;
+    background-color: aliceblue;
+    height: 230px;
+    border-spacing: 1px;
+    
+}
+table,tr,th,td{
+  border: 6px solid rgb(61, 6, 18);
+}
+
+table th{
+    background-color: azure;
+    color: black;
+
+}
+table tr {
+background-color: #888282;
+color: aliceblue;
+}
+ .h{
+    background-color: #444343;
+    }
+
+section table img{
+    width: 70px;
+    height: 70px;
+}
+mark{
+color: aliceblue;
+border-radius: 4px;
+}
+section .information{
+    background-image: url(back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+section .information div
+{
+    width: 25%;
+    height: 450px;
+    display: inline-block;
+    margin: 3% ;
+    background-color: #444343;
+    color: aliceblue;
+}
+section .information div:nth-child(1) div{
+    background-image: url(html.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+margin: auto;
+}
+
+section .information div:nth-child(2) div{
+    background-image: url(CSS-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+
+}
+section .information div:nth-child(3) div{
+    background-image: url(java-script.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+
+}
+section .information div +p{
+    font-family: Brush Script MT;
+    color: black;
+    font-size: 30px;
+}
+section .information div button{
+width: 100%;
+height: 40px;
+color: antiquewhite;
+background-color:rgb(61, 6, 18) ;
+margin-top: 40px ;
+}
+section .information2{
+    text-align: center;
+}
+section .information2 div{
+     width: 40%;
+     height: 400px;
+     display: inline-block;
+     text-align: center;
+     margin: 3%;
+     color: antiquewhite;
+     padding-top :20px ;
+
+}
+section .information2 .d1 {
+background-color: rgb(75, 133, 133);
+}
+section .information2 .d2 {
+    background-color: rgb(218, 64, 25)
+    }
+
+section .information2 div:nth-child(1) div{
+    background-image: url(php.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 200px;
+margin: auto;
+}
+
+section .information2 div:nth-child(2) div{
+    background-image: url(mysql.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+
+}
+section .information2 div +p{
+    color: black;
+    font-size: 20px;
+}
+section .information2 div button{
+width: 44%;
+height: 35px;
+color: antiquewhite;
+background-color:rgb(61, 6, 18) ;
+border-radius: 8px;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 1px;
+}
